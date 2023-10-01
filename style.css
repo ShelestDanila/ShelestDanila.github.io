@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.main-menu li {
+    display: inline;
+    margin-right: 10px;
+    flex: 1 1 auto;
+    height: 100%;
+}
+
+.main-menu li:last-child {
+    margin-right: 0;
+}
+.page {
+    overflow: hidden;
+    display: grid;
+    grid-template-areas: "header" "content" "footer";
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+.header {
+    background-color: black;
+    color: white;
+    padding: 20px 0px;
+    font-size: 1.5rem;
+    background-image: url(https://sun9-73.userapi.com/impg/c856128/v856128209/1ced2a/Pisie1js7A8.jpg?size=1600x900&quality=96&sign=12ef470c4077a52b2f69e6016be1004f&type=album);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.container {
+    max-width: 75%;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+}
+
+.main-menu a {
+    text-decoration: none;
+    color: #e61986;
+    font-weight: bold;
+    height: 100%;
+}
+
+p {
+    text-align: justify;
+}
+
+.footer {
+    background-color: black;
+    background-image: url(https://sun9-73.userapi.com/impg/c856128/v856128209/1ced2a/Pisie1js7A8.jpg?size=1600x900&quality=96&sign=12ef470c4077a52b2f69e6016be1004f&type=album);
+    color: white;
+
+}
+
+.avatar {
+    height: 300px;
+    text-align: center;
+    background-image: url(https://sun9-71.userapi.com/impg/c854428/v854428429/18a3d2/oCjagi2tzWk.jpg?size=604x339&quality=96&sign=09661321a915ca34883f0b42ffc0c983&type=album);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.avatar img {
+    height: 100%;
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    width: 150px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+}
+
+.btn-white {
+    color: white !important;
+    border-color: white !important;
+}
+
+.btn:hover {
+    background: #e61986;
+    box-shadow: 0 15px 20px rgb(237, 102, 174);
+    color: white;
+    transform: translateY(-7px);
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 2px;
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-upper {
+    text-transform: uppercase;
+}

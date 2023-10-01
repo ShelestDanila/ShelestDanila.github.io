@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+    <h1>Форма обратной связи</h1>
+    <form>
+        <!--Поле заполнения Фио-->
+        <p>
+            <label for="Name-Form">Введите свое ФИО:</label>
+            <input type="text" placeholder="Введите ФИО" id="Name-Form">
+        </p>
+        <!--Поле заполнения mail-->
+        <label for="Email-Form">Введите email:</label>
+        <input type="email" placeholder="Введите email" id="Email-Form">
+        <p>
+            <!--Радио кнопки-->
+            Выберите откуда вы о нас узнали:
+        <p>
+            <label for="radio-form1"> Через друзей:</label>
+            <input type="radio" id="radio-form1" name="radio-choice">
+        </p>
+        <p>
+            <label for="radio-form2"> Случайно:</label>
+            <input type="radio" id="radio-form2" name="radio-choice">
+        </p>
+        <p>
+            <label for="radio-form3"> Нашел в интернете:</label>
+            <input type="radio" id="radio-form3" name="radio-choice">
+        </p>
+        <!--Тип обращения (Несколько вариантов)-->
+        <label for="form-select"> Выберите тип обращения: </label>
+        <p>
+            <select id="form-select" name="">
+                <option value="Complaint">Жалоба</option>
+                <option value="Offer">Предложение</option>
+            </select>
+            <!--Текст Сообщения -->
+        <p>
+            <label for="form-text">Здесь вы можете написать свое обращение:</label>
+        <p>
+            <textarea id="form-text" name="form-text" cols="20" row="30"></textarea>
+        </p> <br>
+
+        <!--Вложение Файл-->
+        <p>
+            <label for="form-file"> Добавьте Файл </label>
+            <input type="file" id="form-file">
+        </p>
+        <p>
+            <!--Чекбоксы-->
+            </label for="checkbox-form">
+            <input type="checkbox" id="checkbox-form" name="radio-choice">
+            Я даю согласие на обратку персональных данных
+            </label>
+        </p>
+        <!--Кнопка-->
+        <input type="submit"> </p>
+    </form>
+</body>
+</html>
