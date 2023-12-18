@@ -140,3 +140,29 @@ td {
 .text-upper {
     text-transform: uppercase;
 }
+.feedback-form {
+    position: relative;
+    margin-top: calc(50% - 50%);
+    max-width: 300px;
+    background-color: white;
+    padding: 20px;
+    border: 2px solid black;
+    text-align: center;
+}
+.middle-form {
+    position: relative;
+    margin-top: 10%;
+    max-width: 300px;
+    background-color: white;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+.form-field {
+    display: inline-block;
+    padding: 4px;
+    margin-top: 8px;
+    border: 2px solid gray;
+    border-radius: 4px;
+}
